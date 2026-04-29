@@ -3,8 +3,6 @@ node_modules
 dist
 dist-ssr
 
-/tests/e2e/videos/
-/tests/e2e/screenshots/
 /instrumented
 /coverage
 .nyc_output
@@ -30,8 +28,6 @@ pnpm-debug.log*
 
 *.local
 LOCAL_NOTES.md
-/playwright/.cache
 package-lock.json
 *.tsbuildinfo
 .vscode/starter.code-workspace
-test-results/

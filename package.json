@@ -7,16 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite build && vite preview",
-    "start": "pnpm dev & wait-on tcp:3000 -v",
     "test": "vitest",
-    "test-e2e": "playwright test --headed",
     "coverage": "vitest run --coverage",
     "lint": "eslint . --fix",
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "ts": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@unhead/vue": "^2.1.12",
+    "@unhead/vue": "^3.1.0",
     "pinia": "^3.0.4",
     "vue": "^3.5.31",
     "vue-router": "^5.0.4"
@@ -25,11 +23,9 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify/tailwind4": "^1.2.3",
     "@pinia/testing": "^1.0.3",
-    "@playwright/test": "^1.58.2",
     "@prettier/plugin-oxc": "^0.1.3",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.2",
-    "@tsconfig/node24": "^24.0.4",
     "@types/eslint-plugin-security": "^3.0.1",
     "@types/jsdom": "^28.0.1",
     "@types/lodash-es": "^4.17.12",
@@ -42,10 +38,8 @@
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.9.1",
-    "cssnano": "^7.1.3",
     "eslint": "^10.1.0",
     "eslint-plugin-oxlint": "^1.57.0",
-    "eslint-plugin-playwright": "^2.10.1",
     "eslint-plugin-security": "^4.0.0",
     "eslint-plugin-vue": "^10.8.0",
     "jsdom": "^29.0.1",
@@ -54,13 +48,9 @@
     "prettier": "^3.8.1",
     "tailwindcss": "^4.2.2",
     "typescript": "6.0.2",
-    "unplugin-auto-import": "^21.0.0",
-    "unplugin-vue-components": "^32.0.0",
     "vite": "^8.0.3",
-    "vite-plugin-vue-devtools": "^8.1.1",
     "vitest": "^4.1.2",
-    "vue-tsc": "^3.2.6",
-    "wait-on": "^9.0.4"
+    "vue-tsc": "^3.2.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

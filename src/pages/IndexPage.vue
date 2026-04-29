@@ -1,10 +1,12 @@
 <script setup lang="ts">
-// See vite.config.ts for details about automatic imports
+import HelloWorld from '@/components/HelloWorld.vue'
+import { useStore } from '@/store'
+
 const store = useStore()
 </script>
 <template>
   <header>
-    <h1>Vite + Vue 3 + TypeScript + Tailwind + Playwright Starter Template v{{ store.appMeta.version }}</h1>
+    <h1>Vite + Vue 3 + TypeScript + Tailwind Starter Template v{{ store.appMeta.version }}</h1>
     <p>
       Opinionated, production ready template for Vite and Vue 3. MIT licensed,
       <a href="https://github.com/Uninen/vite-ts-tailwind-starter">available on GitHub</a>.
@@ -27,10 +29,6 @@ const store = useStore()
     <h4>Run unit + component tests (Vitest)</h4>
 
     <pre>pnpm test</pre>
-
-    <h4>Run e2e tests (Playwright)</h4>
-
-    <pre>pnpm test-e2e</pre>
 
     <h4>Build for production</h4>
 

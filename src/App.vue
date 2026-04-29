@@ -1,5 +1,7 @@
 <script setup lang="ts">
-// See vite.config.ts for details about automatic imports
+import { useHead } from '@unhead/vue'
+import { useRoute } from 'vue-router'
+
 const route = useRoute()
 
 useHead({
