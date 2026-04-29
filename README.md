@@ -30,12 +30,3 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 2. Delete the content from `@/pages/IndexPage.vue`
 3. Delete demo styles from `@/assets/base.css`
 4. Profit!11
-
-## Elsewhere
-
-- Follow [@uninen on Twitter](https://twitter.com/uninen) or [unessa.net on Bluesky](https://bsky.app/profile/uninen.net)
-- Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
-
-## Contributing
-
-Contributions are welcome! Please follow the [code of conduct](./CODE_OF_CONDUCT.md) when interacting with others.
