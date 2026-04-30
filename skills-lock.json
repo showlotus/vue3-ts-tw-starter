@@ -13,6 +13,18 @@
       "skillPath": "skills/karpathy-guidelines/SKILL.md",
       "computedHash": "0ec1641120accbb458780e0bd19a50a4182f2b97863e90851b91307f29802c9f"
     },
+    "typescript-advanced-types": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+      "computedHash": "ee8377c523a911be41c31037b477805773ca5ab5ade181e44ca7dd3cd8df6692"
+    },
+    "vant-vue3": {
+      "source": "teachingai/full-stack-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vue-ui-skills/vant-vue3/SKILL.md",
+      "computedHash": "cae3e0651900905da70f4c245c1a3cda7ccc140fda2bf0bec96c0fbf0ac946c9"
+    },
     "vue": {
       "source": "antfu/skills",
       "sourceType": "github",
